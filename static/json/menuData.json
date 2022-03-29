@@ -1,0 +1,33 @@
+[
+              {
+			 	"name": "系统设置",
+			    "icon": "el-icon-message\r\n",
+			    "url": "/mainPage"
+			 },
+			 {
+			 	   "name": "订单管理",
+			     "icon": "el-icon-message\r\n",
+			     "childs":[
+			       {
+			       	"name": "OTA订单管理",
+				      "icon": "el-icon-loading",
+				      "url": "/tablePage"
+			       },
+			       {
+			       	   "name": "B2B订单管理",
+			           "icon": "el-icon-bell",
+			           "url": "/feedBack"
+			       },
+			       {
+			       	  "name": "风控管理",
+			          "icon": "el-icon-edit",
+			          "url": "/feedBack"
+			       },
+			       {
+			       	  "name": "留房管理",
+			          "icon": "el-icon-mobile-phone\r\n",
+			          "url": "/feedBack"
+			       }
+			     ]
+			 }
+        ]
